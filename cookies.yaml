@@ -1,0 +1,6 @@
+- domain: 101.34.221.219
+  httpOnly: false
+  name: PHPSESSID
+  path: /
+  secure: false
+  value: 7f0ec8c2cdd8dd29bcdc21faebe7c9e6

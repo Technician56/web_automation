@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-5LRDE9DJ",
+    "children" : [ {
+      "name" : "3808-MainThread",
+      "children" : [ {
+        "name" : "加入购物车",
+        "uid" : "db47384d9bf1a1e6",
+        "parentUid" : "23e3f59f856e6707dcd4c8fe5b679b57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358359133,
+          "stop" : 1652358383464,
+          "duration" : 24331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "17dc7de1a1b71b8e",
+        "parentUid" : "23e3f59f856e6707dcd4c8fe5b679b57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358302868,
+          "stop" : 1652358316263,
+          "duration" : 13395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录 成功",
+        "uid" : "9628fe81335e0199",
+        "parentUid" : "23e3f59f856e6707dcd4c8fe5b679b57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358336280,
+          "stop" : 1652358345196,
+          "duration" : 8916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_to_cart",
+        "uid" : "1917290a10f60be8",
+        "parentUid" : "23e3f59f856e6707dcd4c8fe5b679b57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358316266,
+          "stop" : 1652358334363,
+          "duration" : 18097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录 成功",
+        "uid" : "ef00985371f5cd67",
+        "parentUid" : "23e3f59f856e6707dcd4c8fe5b679b57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358349245,
+          "stop" : 1652358359131,
+          "duration" : 9886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23e3f59f856e6707dcd4c8fe5b679b57"
+    } ],
+    "uid" : "c7c98eeded7ccb2794211fd1bc8004c6"
+  } ]
+}

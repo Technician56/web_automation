@@ -1,0 +1,54 @@
+INFO     2022-05-12 20:25:59 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:53] : 开始测试用例  加入购物车
+INFO     2022-05-12 20:25:59 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (1, '打开新的浏览器', 'new_session', [])
+INFO     2022-05-12 20:26:01 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 1 关键字 new_session 执行完毕,开始截图
+INFO     2022-05-12 20:26:01 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:01 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (2, '网页跳转', 'get', ['http://101.34.221.219:8010/?s=user/logininfo.html'])
+INFO     2022-05-12 20:26:10 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 2 关键字 get 执行完毕,开始截图
+INFO     2022-05-12 20:26:10 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:10 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (3, '输入 账号', 'input', ['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[1]/input', 'tcs07'])
+INFO     2022-05-12 20:26:10 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 3 关键字 input 执行完毕,开始截图
+INFO     2022-05-12 20:26:10 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (4, '输入 密码', 'input', ['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[2]/div/input', 'admin123'])
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 4 关键字 input 执行完毕,开始截图
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (5, '点击 登录', 'click', ['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/button'])
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 5 关键字 click 执行完毕,开始截图
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (6, '获取 提示信息', 'get_text', ['msg', "//p[@class='prompt-msg']"])
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 6 关键字 get_text 执行完毕,开始截图
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (7, '断言 提示信息', 'assert', ['msg', '登录成功', 'equal'])
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 7 关键字 assert 执行完毕,开始截图
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 assert 不需要进行截图
+INFO     2022-05-12 20:26:11 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (8, '连接数据库', 'connect_sql', ['101.34.221.219', 13306, 'dev', 'dev_My_ShopPx', 'test'])
+INFO     2022-05-12 20:26:13 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 8 关键字 connect_sql 执行完毕,开始截图
+INFO     2022-05-12 20:26:13 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 connect_sql 不需要进行截图
+INFO     2022-05-12 20:26:13 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (9, 'SQL 清空购物车', 'execute_sql', ['delete sxo_cart.*\nfrom sxo_cart\nleft join sxo_user\non sxo_cart.user_id = sxo_user.id\nwhere sxo_user.username = "tcs07"'])
+INFO     2022-05-12 20:26:14 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 9 关键字 execute_sql 执行完毕,开始截图
+INFO     2022-05-12 20:26:14 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 execute_sql 不需要进行截图
+INFO     2022-05-12 20:26:14 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (10, '网页 跳转', 'get', ['http://101.34.221.219:8010/?s=goods/index/id/6.html'])
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 10 关键字 get 执行完毕,开始截图
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (11, '输入 数量', 'input', ['// *[ @ id = "text_box"]', 10, True])
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 11 关键字 input 执行完毕,开始截图
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (12, '点击 加入购物车', 'click', ['/html/body/div[4]/div[2]/div[2]/div/div[3]/div[2]/button[2]'])
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 12 关键字 click 执行完毕,开始截图
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (13, '获取 提示信息', 'get_text', ['msg', '//p[@class="prompt-msg"]'])
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 13 关键字 get_text 执行完毕,开始截图
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:26:20 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (14, '关闭浏览器', 'exit_session', [])
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 14 关键字 exit_session 执行完毕,开始截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 exit_session 不需要进行截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (15, '断言 提示信息', 'assert', ['msg', '加入成功', 'equal'])
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 15 关键字 assert 执行完毕,开始截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 assert 不需要进行截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (16, 'SQL 购物车信息', 'get_sql', ['sql', 'select c.goods_id,c.stock\nfrom sxo_cart c\nleft join sxo_user u\non c.user_id = u.id\nwhere u.username = "tcs07"'])
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 16 关键字 get_sql 执行完毕,开始截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 get_sql 不需要进行截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (17, '断言 购物车内容', 'assert', ['sql', '(6, 10)', 'equal'])
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 17 关键字 assert 执行完毕,开始截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 assert 不需要进行截图
+INFO     2022-05-12 20:26:23 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:80] : 测试用例 加入购物车 完成
+INFO     2022-05-12 20:26:25 [tcs_web_automation.web_automation_encapsulation.conftest:69] : 框架执行结束

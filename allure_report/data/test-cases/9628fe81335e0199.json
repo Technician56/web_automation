@@ -1,0 +1,321 @@
+{
+  "uid" : "9628fe81335e0199",
+  "name" : "登录 成功",
+  "fullName" : "test_tcs_encapsulation.测试_测试1#test_sss_1",
+  "historyId" : "dd28a1d8229772d46101699e7f5d6109",
+  "time" : {
+    "start" : 1652358336280,
+    "stop" : 1652358345196,
+    "duration" : 8916
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1652358302867,
+      "stop" : 1652358302867,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_unittest_setUpClass_fixture_create_case.<locals>.Test",
+    "time" : {
+      "start" : 1652358334366,
+      "stop" : 1652358336280,
+      "duration" : 1914
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1652358302867,
+      "stop" : 1652358302867,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "begin_end",
+    "time" : {
+      "start" : 1652358302868,
+      "stop" : 1652358302868,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "网页跳转",
+      "time" : {
+        "start" : 1652358336396,
+        "stop" : 1652358344111,
+        "duration" : 7715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33ae1304e925da59",
+        "name" : "网页跳转",
+        "source" : "33ae1304e925da59.png",
+        "type" : "image/png",
+        "size" : 144616
+      } ],
+      "parameters" : [ {
+        "name" : "关键字",
+        "value" : "'get'"
+      }, {
+        "name" : "参数",
+        "value" : "['http://101.34.221.219:8010/?s=user/logininfo.html']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入 账号",
+      "time" : {
+        "start" : 1652358344112,
+        "stop" : 1652358344486,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83879c32c9fb0385",
+        "name" : "输入 账号",
+        "source" : "83879c32c9fb0385.png",
+        "type" : "image/png",
+        "size" : 144356
+      } ],
+      "parameters" : [ {
+        "name" : "关键字",
+        "value" : "'input'"
+      }, {
+        "name" : "参数",
+        "value" : "['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[1]/input', 'tcs07']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入 密码",
+      "time" : {
+        "start" : 1652358344486,
+        "stop" : 1652358344723,
+        "duration" : 237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bfb32db05a2ebc49",
+        "name" : "输入 密码",
+        "source" : "bfb32db05a2ebc49.png",
+        "type" : "image/png",
+        "size" : 141883
+      } ],
+      "parameters" : [ {
+        "name" : "关键字",
+        "value" : "'input'"
+      }, {
+        "name" : "参数",
+        "value" : "['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[2]/div/input', 'admin123']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击 登录",
+      "time" : {
+        "start" : 1652358344723,
+        "stop" : 1652358344983,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "899b8ec7070ce1c2",
+        "name" : "点击 登录",
+        "source" : "899b8ec7070ce1c2.png",
+        "type" : "image/png",
+        "size" : 144764
+      } ],
+      "parameters" : [ {
+        "name" : "关键字",
+        "value" : "'click'"
+      }, {
+        "name" : "参数",
+        "value" : "['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/button']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取 提示信息",
+      "time" : {
+        "start" : 1652358344983,
+        "stop" : 1652358345195,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "618062e5e222c2e7",
+        "name" : "获取 提示信息",
+        "source" : "618062e5e222c2e7.png",
+        "type" : "image/png",
+        "size" : 148437
+      } ],
+      "parameters" : [ {
+        "name" : "关键字",
+        "value" : "'get_text'"
+      }, {
+        "name" : "参数",
+        "value" : "['msg', \"//p[@class='prompt-msg']\"]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言 提示信息",
+      "time" : {
+        "start" : 1652358345195,
+        "stop" : 1652358345196,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "关键字",
+        "value" : "'assert'"
+      }, {
+        "name" : "参数",
+        "value" : "['msg', '登录成功', 'equal']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "401c8098e7bf9485",
+      "name" : "log",
+      "source" : "401c8098e7bf9485.txt",
+      "type" : "text/plain",
+      "size" : 3172
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_create_case.<locals>.Test::0",
+    "time" : {
+      "start" : 1652358345196,
+      "stop" : 1652358347369,
+      "duration" : 2173
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "begin_end::0",
+    "time" : {
+      "start" : 1652358385595,
+      "stop" : 1652358385595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试1"
+  }, {
+    "name" : "epic",
+    "value" : "test_use.xlsx"
+  }, {
+    "name" : "suite",
+    "value" : "test_tcs_encapsulation"
+  }, {
+    "name" : "subSuite",
+    "value" : "测试_测试1"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5LRDE9DJ"
+  }, {
+    "name" : "thread",
+    "value" : "3808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tcs_encapsulation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9628fe81335e0199.json",
+  "parameterValues" : [ ]
+}

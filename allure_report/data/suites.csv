@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 12 20:25:59 CST 2022","Thu May 12 20:26:23 CST 2022","24331","","test_tcs_encapsulation","测试_登录","","","加入购物车",""
+"passed","Thu May 12 20:25:49 CST 2022","Thu May 12 20:25:59 CST 2022","9886","","test_tcs_encapsulation","测试_登录","","","登录 成功",""
+"passed","Thu May 12 20:25:02 CST 2022","Thu May 12 20:25:16 CST 2022","13395","testcase.po","test_v2","ATest_A","","","test_login",""
+"passed","Thu May 12 20:25:36 CST 2022","Thu May 12 20:25:45 CST 2022","8916","","test_tcs_encapsulation","测试_测试1","","","登录 成功",""
+"passed","Thu May 12 20:25:16 CST 2022","Thu May 12 20:25:34 CST 2022","18097","testcase.po","test_v2","ATest_A","","","test_add_to_cart",""

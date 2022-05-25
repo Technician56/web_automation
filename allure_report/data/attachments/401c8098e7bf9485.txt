@@ -1,0 +1,20 @@
+INFO     2022-05-12 20:25:36 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:53] : 开始测试用例  登录 成功
+INFO     2022-05-12 20:25:36 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (1, '网页跳转', 'get', ['http://101.34.221.219:8010/?s=user/logininfo.html'])
+INFO     2022-05-12 20:25:43 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 1 关键字 get 执行完毕,开始截图
+INFO     2022-05-12 20:25:43 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (2, '输入 账号', 'input', ['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[1]/input', 'tcs07'])
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 2 关键字 input 执行完毕,开始截图
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (3, '输入 密码', 'input', ['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[2]/div/input', 'admin123'])
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 3 关键字 input 执行完毕,开始截图
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (4, '点击 登录', 'click', ['/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/button'])
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 4 关键字 click 执行完毕,开始截图
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:25:44 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (5, '获取 提示信息', 'get_text', ['msg', "//p[@class='prompt-msg']"])
+INFO     2022-05-12 20:25:45 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 5 关键字 get_text 执行完毕,开始截图
+INFO     2022-05-12 20:25:45 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:75] : 满足条件，进行截图...
+INFO     2022-05-12 20:25:45 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:60] : 测试步骤 (6, '断言 提示信息', 'assert', ['msg', '登录成功', 'equal'])
+INFO     2022-05-12 20:25:45 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:67] : 6 关键字 assert 执行完毕,开始截图
+INFO     2022-05-12 20:25:45 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:78] : 关键字 assert 不需要进行截图
+INFO     2022-05-12 20:25:45 [tcs_web_automation.web_automation_encapsulation.libs.case_utils:80] : 测试用例 登录 成功 完成

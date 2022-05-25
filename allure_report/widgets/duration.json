@@ -1,0 +1,51 @@
+[ {
+  "uid" : "db47384d9bf1a1e6",
+  "name" : "加入购物车",
+  "time" : {
+    "start" : 1652358359133,
+    "stop" : 1652358383464,
+    "duration" : 24331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef00985371f5cd67",
+  "name" : "登录 成功",
+  "time" : {
+    "start" : 1652358349245,
+    "stop" : 1652358359131,
+    "duration" : 9886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17dc7de1a1b71b8e",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1652358302868,
+    "stop" : 1652358316263,
+    "duration" : 13395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9628fe81335e0199",
+  "name" : "登录 成功",
+  "time" : {
+    "start" : 1652358336280,
+    "stop" : 1652358345196,
+    "duration" : 8916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1917290a10f60be8",
+  "name" : "test_add_to_cart",
+  "time" : {
+    "start" : 1652358316266,
+    "stop" : 1652358334363,
+    "duration" : 18097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

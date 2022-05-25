@@ -1,0 +1,1 @@
+INFO     2022-05-12 20:25:02 [tcs_web_automation.web_automation_encapsulation.conftest:67] : 开始执行框架

@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase.po",
+    "children" : [ {
+      "name" : "test_v2",
+      "children" : [ {
+        "name" : "ATest_A",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "17dc7de1a1b71b8e",
+          "parentUid" : "ba14994756a353306843c17e2203f346",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652358302868,
+            "stop" : 1652358316263,
+            "duration" : 13395
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_add_to_cart",
+          "uid" : "1917290a10f60be8",
+          "parentUid" : "ba14994756a353306843c17e2203f346",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652358316266,
+            "stop" : 1652358334363,
+            "duration" : 18097
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ba14994756a353306843c17e2203f346"
+      } ],
+      "uid" : "d3d889453afbc2d77088a34c2ceb6172"
+    } ],
+    "uid" : "59af33bfe91d8e1eeafe9eb927764642"
+  }, {
+    "name" : "test_tcs_encapsulation",
+    "children" : [ {
+      "name" : "测试_测试1",
+      "children" : [ {
+        "name" : "登录 成功",
+        "uid" : "9628fe81335e0199",
+        "parentUid" : "e5e8967edffcf1eee97f6c1effaaab20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358336280,
+          "stop" : 1652358345196,
+          "duration" : 8916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5e8967edffcf1eee97f6c1effaaab20"
+    }, {
+      "name" : "测试_登录",
+      "children" : [ {
+        "name" : "登录 成功",
+        "uid" : "ef00985371f5cd67",
+        "parentUid" : "ed6468fefb02255682a05f58b9b99f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358349245,
+          "stop" : 1652358359131,
+          "duration" : 9886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "加入购物车",
+        "uid" : "db47384d9bf1a1e6",
+        "parentUid" : "ed6468fefb02255682a05f58b9b99f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652358359133,
+          "stop" : 1652358383464,
+          "duration" : 24331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed6468fefb02255682a05f58b9b99f53"
+    } ],
+    "uid" : "9d68413132740f72f8c075826cf20d2c"
+  } ]
+}
